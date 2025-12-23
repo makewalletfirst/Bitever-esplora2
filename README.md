@@ -1,3 +1,13 @@
+P2PK 주소나 P2PK 보상방식을 처리하기위해 파이썬 API로 중간 브릿지 형성 <br>
+pip install fastapi uvicorn requests  <br>
+uvicorn proxy:app --host 0.0.0.0 --port 8888  <br>
+혹은 PM2로 구동 <br>
+이전 버전에 비해 esplora-nginx.conf 수정됨 <br>
+generate py를 통해 스캐닝을 먼저 해줘야함 <br>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
 ###Web Title , Ticker Change###
 
 cd ~/bitever-esplora
